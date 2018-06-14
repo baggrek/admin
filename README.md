@@ -37,7 +37,7 @@ add add after config.api_only = true
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use ActionDispatch::Session::CookieStore
 
-now, add gem 'devise' gem 'acitiveadmin' and run bundle install
+now, add gem 'devise' gem 'activeadmin' and run bundle install
 
 install this activeadmin with rails/rake generate active_admin:install
 
